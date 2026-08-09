@@ -1,0 +1,390 @@
+month_start,year,season,day_type,cluster_name,trip_starts,trip_ends,net_change,active_station_hours
+2022-01-01,2022,Winter,Weekday,Commercial & Employment Core,27264,27426,162,32344
+2022-01-01,2022,Winter,Weekday,Commuter-Heavy Transit Hub,2642,2810,168,3182
+2022-01-01,2022,Winter,Weekday,Leisure & Waterfront,2293,2387,94,3096
+2022-01-01,2022,Winter,Weekday,Residential & Inner-Suburban Feeder,5892,5473,-419,8227
+2022-01-01,2022,Winter,Weekend,Commercial & Employment Core,12387,12358,-29,14962
+2022-01-01,2022,Winter,Weekend,Commuter-Heavy Transit Hub,507,505,-2,746
+2022-01-01,2022,Winter,Weekend,Leisure & Waterfront,1637,1736,99,1853
+2022-01-01,2022,Winter,Weekend,Residential & Inner-Suburban Feeder,2668,2592,-76,3675
+2022-02-01,2022,Winter,Weekday,Commercial & Employment Core,36895,37041,146,41837
+2022-02-01,2022,Winter,Weekday,Commuter-Heavy Transit Hub,3796,4093,297,3907
+2022-02-01,2022,Winter,Weekday,Leisure & Waterfront,2771,2932,161,3655
+2022-02-01,2022,Winter,Weekday,Residential & Inner-Suburban Feeder,7213,6597,-616,10043
+2022-02-01,2022,Winter,Weekend,Commercial & Employment Core,11519,11450,-69,14056
+2022-02-01,2022,Winter,Weekend,Commuter-Heavy Transit Hub,574,585,11,837
+2022-02-01,2022,Winter,Weekend,Leisure & Waterfront,1002,1080,78,1292
+2022-02-01,2022,Winter,Weekend,Residential & Inner-Suburban Feeder,2107,2093,-14,3060
+2022-03-01,2022,Spring,Weekday,Commercial & Employment Core,82725,82868,143,71493
+2022-03-01,2022,Spring,Weekday,Commuter-Heavy Transit Hub,8367,8982,615,6093
+2022-03-01,2022,Spring,Weekday,Leisure & Waterfront,7938,8476,538,8184
+2022-03-01,2022,Spring,Weekday,Residential & Inner-Suburban Feeder,17054,15718,-1336,20217
+2022-03-01,2022,Spring,Weekend,Commercial & Employment Core,22345,22495,150,21359
+2022-03-01,2022,Spring,Weekend,Commuter-Heavy Transit Hub,1033,1013,-20,1191
+2022-03-01,2022,Spring,Weekend,Leisure & Waterfront,4114,4257,143,2885
+2022-03-01,2022,Spring,Weekend,Residential & Inner-Suburban Feeder,4700,4457,-243,5690
+2022-04-01,2022,Spring,Weekday,Commercial & Employment Core,110312,110573,261,78040
+2022-04-01,2022,Spring,Weekday,Commuter-Heavy Transit Hub,10136,11437,1301,6499
+2022-04-01,2022,Spring,Weekday,Leisure & Waterfront,15365,16211,846,12119
+2022-04-01,2022,Spring,Weekday,Residential & Inner-Suburban Feeder,24414,21909,-2505,24674
+2022-04-01,2022,Spring,Weekend,Commercial & Employment Core,48825,49022,197,33585
+2022-04-01,2022,Spring,Weekend,Commuter-Heavy Transit Hub,2179,2130,-49,2042
+2022-04-01,2022,Spring,Weekend,Leisure & Waterfront,14745,15283,538,6834
+2022-04-01,2022,Spring,Weekend,Residential & Inner-Suburban Feeder,11181,10541,-640,10590
+2022-05-01,2022,Spring,Weekday,Commercial & Employment Core,207063,206285,-778,99978
+2022-05-01,2022,Spring,Weekday,Commuter-Heavy Transit Hub,16315,18299,1984,7693
+2022-05-01,2022,Spring,Weekday,Leisure & Waterfront,48957,50664,1707,21890
+2022-05-01,2022,Spring,Weekday,Residential & Inner-Suburban Feeder,50075,47009,-3066,38141
+2022-05-01,2022,Spring,Weekend,Commercial & Employment Core,91839,91893,54,41774
+2022-05-01,2022,Spring,Weekend,Commuter-Heavy Transit Hub,3890,3658,-232,2660
+2022-05-01,2022,Spring,Weekend,Leisure & Waterfront,39792,40844,1052,10443
+2022-05-01,2022,Spring,Weekend,Residential & Inner-Suburban Feeder,22286,21554,-732,15525
+2022-05-01,2022,Spring,Weekend,Unassigned,0,1,1,1
+2022-06-01,2022,Summer,Weekday,Commercial & Employment Core,263347,261891,-1456,108038
+2022-06-01,2022,Summer,Weekday,Commuter-Heavy Transit Hub,20403,23467,3064,8063
+2022-06-01,2022,Summer,Weekday,Leisure & Waterfront,56092,58709,2617,24971
+2022-06-01,2022,Summer,Weekday,Residential & Inner-Suburban Feeder,63057,58417,-4640,43307
+2022-06-01,2022,Summer,Weekend,Commercial & Employment Core,106148,105821,-327,40722
+2022-06-01,2022,Summer,Weekend,Commuter-Heavy Transit Hub,4131,4001,-130,2601
+2022-06-01,2022,Summer,Weekend,Leisure & Waterfront,40693,42003,1310,10651
+2022-06-01,2022,Summer,Weekend,Residential & Inner-Suburban Feeder,24808,24301,-507,15994
+2022-07-01,2022,Summer,Weekday,Commercial & Employment Core,264850,262257,-2593,103927
+2022-07-01,2022,Summer,Weekday,Commuter-Heavy Transit Hub,20136,22327,2191,7470
+2022-07-01,2022,Summer,Weekday,Leisure & Waterfront,61395,63960,2565,24110
+2022-07-01,2022,Summer,Weekday,Residential & Inner-Suburban Feeder,60430,58031,-2399,40575
+2022-07-01,2022,Summer,Weekend,Commercial & Employment Core,139419,138543,-876,52188
+2022-07-01,2022,Summer,Weekend,Commuter-Heavy Transit Hub,5554,5226,-328,3291
+2022-07-01,2022,Summer,Weekend,Leisure & Waterfront,59762,62057,2295,13905
+2022-07-01,2022,Summer,Weekend,Residential & Inner-Suburban Feeder,34817,33962,-855,20746
+2022-08-01,2022,Summer,Weekday,Commercial & Employment Core,317215,313443,-3772,116681
+2022-08-01,2022,Summer,Weekday,Commuter-Heavy Transit Hub,24012,27247,3235,8069
+2022-08-01,2022,Summer,Weekday,Leisure & Waterfront,66980,69869,2889,25810
+2022-08-01,2022,Summer,Weekday,Residential & Inner-Suburban Feeder,72039,69504,-2535,45854
+2022-08-01,2022,Summer,Weekend,Commercial & Employment Core,114655,114117,-538,41667
+2022-08-01,2022,Summer,Weekend,Commuter-Heavy Transit Hub,4525,4322,-203,2558
+2022-08-01,2022,Summer,Weekend,Leisure & Waterfront,44941,46772,1831,10673
+2022-08-01,2022,Summer,Weekend,Residential & Inner-Suburban Feeder,28037,27178,-859,16479
+2022-09-01,2022,Fall,Weekday,Commercial & Employment Core,292968,289866,-3102,108467
+2022-09-01,2022,Fall,Weekday,Commuter-Heavy Transit Hub,25479,29270,3791,7342
+2022-09-01,2022,Fall,Weekday,Leisure & Waterfront,44854,46532,1678,21148
+2022-09-01,2022,Fall,Weekday,Residential & Inner-Suburban Feeder,63362,60737,-2625,41586
+2022-09-01,2022,Fall,Weekend,Commercial & Employment Core,97641,97022,-619,39434
+2022-09-01,2022,Fall,Weekend,Commuter-Heavy Transit Hub,3800,3952,152,2295
+2022-09-01,2022,Fall,Weekend,Leisure & Waterfront,28252,29363,1111,8513
+2022-09-01,2022,Fall,Weekend,Residential & Inner-Suburban Feeder,22155,21752,-403,14749
+2022-10-01,2022,Fall,Weekday,Commercial & Employment Core,226844,225427,-1417,99637
+2022-10-01,2022,Fall,Weekday,Commuter-Heavy Transit Hub,19995,23070,3075,6611
+2022-10-01,2022,Fall,Weekday,Leisure & Waterfront,25338,26810,1472,16607
+2022-10-01,2022,Fall,Weekday,Residential & Inner-Suburban Feeder,49663,46454,-3209,37304
+2022-10-01,2022,Fall,Weekend,Commercial & Employment Core,108132,108031,-101,49045
+2022-10-01,2022,Fall,Weekend,Commuter-Heavy Transit Hub,4346,4425,79,2887
+2022-10-01,2022,Fall,Weekend,Leisure & Waterfront,24542,25465,923,9933
+2022-10-01,2022,Fall,Weekend,Residential & Inner-Suburban Feeder,24535,23801,-734,18148
+2022-11-01,2022,Fall,Weekday,Commercial & Employment Core,168280,167627,-653,91856
+2022-11-01,2022,Fall,Weekday,Commuter-Heavy Transit Hub,14873,17062,2189,6314
+2022-11-01,2022,Fall,Weekday,Leisure & Waterfront,13546,14297,751,12175
+2022-11-01,2022,Fall,Weekday,Residential & Inner-Suburban Feeder,36623,34222,-2401,32651
+2022-11-01,2022,Fall,Weekend,Commercial & Employment Core,54679,54757,78,32683
+2022-11-01,2022,Fall,Weekend,Commuter-Heavy Transit Hub,2011,2216,205,1785
+2022-11-01,2022,Fall,Weekend,Leisure & Waterfront,8729,9104,375,5025
+2022-11-01,2022,Fall,Weekend,Residential & Inner-Suburban Feeder,12321,11791,-530,10931
+2022-12-01,2022,Winter,Weekday,Commercial & Employment Core,101592,101389,-203,73582
+2022-12-01,2022,Winter,Weekday,Commuter-Heavy Transit Hub,8083,9536,1453,5150
+2022-12-01,2022,Winter,Weekday,Leisure & Waterfront,7019,7486,467,7872
+2022-12-01,2022,Winter,Weekday,Residential & Inner-Suburban Feeder,22025,20260,-1765,23892
+2022-12-01,2022,Winter,Weekend,Commercial & Employment Core,27395,27494,99,24029
+2022-12-01,2022,Winter,Weekend,Commuter-Heavy Transit Hub,1092,1225,133,1226
+2022-12-01,2022,Winter,Weekend,Leisure & Waterfront,2189,2298,109,2543
+2022-12-01,2022,Winter,Weekend,Residential & Inner-Suburban Feeder,5843,5532,-311,6989
+2023-01-01,2023,Winter,Weekday,Commercial & Employment Core,97575,98015,440,73074
+2023-01-01,2023,Winter,Weekday,Commuter-Heavy Transit Hub,8723,9419,696,5284
+2023-01-01,2023,Winter,Weekday,Leisure & Waterfront,6072,6324,252,7078
+2023-01-01,2023,Winter,Weekday,Residential & Inner-Suburban Feeder,19412,17963,-1449,21969
+2023-01-01,2023,Winter,Weekend,Commercial & Employment Core,32131,32076,-55,27358
+2023-01-01,2023,Winter,Weekend,Commuter-Heavy Transit Hub,1284,1337,53,1423
+2023-01-01,2023,Winter,Weekend,Leisure & Waterfront,2693,2760,67,2992
+2023-01-01,2023,Winter,Weekend,Residential & Inner-Suburban Feeder,5951,5968,17,7494
+2023-02-01,2023,Winter,Weekday,Commercial & Employment Core,90734,90686,-48,64978
+2023-02-01,2023,Winter,Weekday,Commuter-Heavy Transit Hub,7891,8880,989,4791
+2023-02-01,2023,Winter,Weekday,Leisure & Waterfront,6598,6944,346,6742
+2023-02-01,2023,Winter,Weekday,Residential & Inner-Suburban Feeder,17472,16212,-1260,19286
+2023-02-01,2023,Winter,Weekend,Commercial & Employment Core,32892,32892,0,24485
+2023-02-01,2023,Winter,Weekend,Commuter-Heavy Transit Hub,1271,1302,31,1341
+2023-02-01,2023,Winter,Weekend,Leisure & Waterfront,3436,3687,251,2985
+2023-02-01,2023,Winter,Weekend,Residential & Inner-Suburban Feeder,5921,5607,-314,6862
+2023-03-01,2023,Spring,Weekday,Commercial & Employment Core,129414,129526,112,84620
+2023-03-01,2023,Spring,Weekday,Commuter-Heavy Transit Hub,10829,11818,989,6020
+2023-03-01,2023,Spring,Weekday,Leisure & Waterfront,9207,9907,700,9291
+2023-03-01,2023,Spring,Weekday,Residential & Inner-Suburban Feeder,25586,23733,-1853,26580
+2023-03-01,2023,Spring,Weekend,Commercial & Employment Core,30940,30956,16,23875
+2023-03-01,2023,Spring,Weekend,Commuter-Heavy Transit Hub,1132,1086,-46,1174
+2023-03-01,2023,Spring,Weekend,Leisure & Waterfront,3903,4053,150,2914
+2023-03-01,2023,Spring,Weekend,Residential & Inner-Suburban Feeder,5559,5481,-78,6547
+2023-04-01,2023,Spring,Weekday,Commercial & Employment Core,177099,176807,-292,89513
+2023-04-01,2023,Spring,Weekday,Commuter-Heavy Transit Hub,13050,14676,1626,5846
+2023-04-01,2023,Spring,Weekday,Leisure & Waterfront,21682,23061,1379,15000
+2023-04-01,2023,Spring,Weekday,Residential & Inner-Suburban Feeder,40870,38075,-2795,33779
+2023-04-01,2023,Spring,Weekend,Commercial & Employment Core,69153,69322,169,40961
+2023-04-01,2023,Spring,Weekend,Commuter-Heavy Transit Hub,2398,2416,18,2138
+2023-04-01,2023,Spring,Weekend,Leisure & Waterfront,14295,14840,545,7603
+2023-04-01,2023,Spring,Weekend,Residential & Inner-Suburban Feeder,15909,15266,-643,14259
+2023-05-01,2023,Spring,Weekday,Commercial & Employment Core,273781,271568,-2213,111948
+2023-05-01,2023,Spring,Weekday,Commuter-Heavy Transit Hub,19186,21997,2811,7174
+2023-05-01,2023,Spring,Weekday,Leisure & Waterfront,39522,42835,3313,22696
+2023-05-01,2023,Spring,Weekday,Residential & Inner-Suburban Feeder,66608,62483,-4125,46476
+2023-05-01,2023,Spring,Weekend,Commercial & Employment Core,88299,88137,-162,38660
+2023-05-01,2023,Spring,Weekend,Commuter-Heavy Transit Hub,3157,3038,-119,2106
+2023-05-01,2023,Spring,Weekend,Leisure & Waterfront,24295,25089,794,8991
+2023-05-01,2023,Spring,Weekend,Residential & Inner-Suburban Feeder,21520,21156,-364,15551
+2023-06-01,2023,Summer,Weekday,Commercial & Employment Core,306354,303719,-2635,112763
+2023-06-01,2023,Summer,Weekday,Commuter-Heavy Transit Hub,20927,23359,2432,7204
+2023-06-01,2023,Summer,Weekday,Leisure & Waterfront,41017,44482,3465,23331
+2023-06-01,2023,Summer,Weekday,Residential & Inner-Suburban Feeder,71509,67895,-3614,47182
+2023-06-01,2023,Summer,Weekend,Commercial & Employment Core,112623,112542,-81,42396
+2023-06-01,2023,Summer,Weekend,Commuter-Heavy Transit Hub,3342,3235,-107,2231
+2023-06-01,2023,Summer,Weekend,Leisure & Waterfront,26640,28120,1480,10245
+2023-06-01,2023,Summer,Weekend,Residential & Inner-Suburban Feeder,27670,26703,-967,17698
+2023-07-01,2023,Summer,Weekday,Commercial & Employment Core,326518,323098,-3420,111084
+2023-07-01,2023,Summer,Weekday,Commuter-Heavy Transit Hub,21155,24059,2904,6839
+2023-07-01,2023,Summer,Weekday,Leisure & Waterfront,51122,55387,4265,24563
+2023-07-01,2023,Summer,Weekday,Residential & Inner-Suburban Feeder,78229,74200,-4029,48291
+2023-07-01,2023,Summer,Weekday,Unassigned,0,1,1,1
+2023-07-01,2023,Summer,Weekend,Commercial & Employment Core,127661,127094,-567,52106
+2023-07-01,2023,Summer,Weekend,Commuter-Heavy Transit Hub,3683,3529,-154,2719
+2023-07-01,2023,Summer,Weekend,Leisure & Waterfront,31745,33314,1569,12423
+2023-07-01,2023,Summer,Weekend,Residential & Inner-Suburban Feeder,31338,30788,-550,21597
+2023-08-01,2023,Summer,Weekday,Commercial & Employment Core,360269,356420,-3849,121304
+2023-08-01,2023,Summer,Weekday,Commuter-Heavy Transit Hub,23632,26508,2876,7557
+2023-08-01,2023,Summer,Weekday,Leisure & Waterfront,53068,58999,5931,26485
+2023-08-01,2023,Summer,Weekday,Residential & Inner-Suburban Feeder,88930,83596,-5334,53975
+2023-08-01,2023,Summer,Weekend,Commercial & Employment Core,111497,111276,-221,42885
+2023-08-01,2023,Summer,Weekend,Commuter-Heavy Transit Hub,3204,3063,-141,2352
+2023-08-01,2023,Summer,Weekend,Leisure & Waterfront,29224,30914,1690,10331
+2023-08-01,2023,Summer,Weekend,Residential & Inner-Suburban Feeder,28750,27770,-980,18398
+2023-09-01,2023,Fall,Weekday,Commercial & Employment Core,348561,347564,-997,112749
+2023-09-01,2023,Fall,Weekday,Commuter-Heavy Transit Hub,27467,29229,1762,7414
+2023-09-01,2023,Fall,Weekday,Leisure & Waterfront,40391,44240,3849,23065
+2023-09-01,2023,Fall,Weekday,Residential & Inner-Suburban Feeder,83223,78350,-4873,50435
+2023-09-01,2023,Fall,Weekend,Commercial & Employment Core,134181,134238,57,49391
+2023-09-01,2023,Fall,Weekend,Commuter-Heavy Transit Hub,4559,4394,-165,2804
+2023-09-01,2023,Fall,Weekend,Leisure & Waterfront,28525,30344,1819,11344
+2023-09-01,2023,Fall,Weekend,Residential & Inner-Suburban Feeder,33778,32326,-1452,21405
+2023-10-01,2023,Fall,Weekday,Commercial & Employment Core,303476,303059,-417,111631
+2023-10-01,2023,Fall,Weekday,Commuter-Heavy Transit Hub,26210,27583,1373,7745
+2023-10-01,2023,Fall,Weekday,Leisure & Waterfront,27378,29862,2484,20016
+2023-10-01,2023,Fall,Weekday,Residential & Inner-Suburban Feeder,71381,67637,-3744,48423
+2023-10-01,2023,Fall,Weekday,Unassigned,0,1,1,1
+2023-10-01,2023,Fall,Weekend,Commercial & Employment Core,98510,98972,462,45162
+2023-10-01,2023,Fall,Weekend,Commuter-Heavy Transit Hub,3547,3741,194,2651
+2023-10-01,2023,Fall,Weekend,Leisure & Waterfront,13063,13908,845,8434
+2023-10-01,2023,Fall,Weekend,Residential & Inner-Suburban Feeder,23781,22661,-1120,18564
+2023-11-01,2023,Fall,Weekday,Commercial & Employment Core,208531,207582,-949,101121
+2023-11-01,2023,Fall,Weekday,Commuter-Heavy Transit Hub,18114,21897,3783,7320
+2023-11-01,2023,Fall,Weekday,Leisure & Waterfront,14573,15629,1056,14507
+2023-11-01,2023,Fall,Weekday,Residential & Inner-Suburban Feeder,48500,44454,-4046,40217
+2023-11-01,2023,Fall,Weekend,Commercial & Employment Core,64624,65020,396,36111
+2023-11-01,2023,Fall,Weekend,Commuter-Heavy Transit Hub,2529,2602,73,2130
+2023-11-01,2023,Fall,Weekend,Leisure & Waterfront,6753,7216,463,5958
+2023-11-01,2023,Fall,Weekend,Residential & Inner-Suburban Feeder,15616,14839,-777,14013
+2023-12-01,2023,Winter,Weekday,Commercial & Employment Core,131321,130576,-745,82926
+2023-12-01,2023,Winter,Weekday,Commuter-Heavy Transit Hub,10389,12471,2082,5871
+2023-12-01,2023,Winter,Weekday,Leisure & Waterfront,9079,9587,508,10210
+2023-12-01,2023,Winter,Weekday,Residential & Inner-Suburban Feeder,30004,28073,-1931,30154
+2023-12-01,2023,Winter,Weekend,Commercial & Employment Core,47927,48244,317,36361
+2023-12-01,2023,Winter,Weekend,Commuter-Heavy Transit Hub,1741,1830,89,1895
+2023-12-01,2023,Winter,Weekend,Leisure & Waterfront,3772,4041,269,4472
+2023-12-01,2023,Winter,Weekend,Residential & Inner-Suburban Feeder,11147,10586,-561,12405
+2024-01-01,2024,Winter,Weekday,Commercial & Employment Core,114864,114191,-673,82959
+2024-01-01,2024,Winter,Weekday,Commuter-Heavy Transit Hub,10985,12557,1572,7004
+2024-01-01,2024,Winter,Weekday,Leisure & Waterfront,6981,7696,715,8640
+2024-01-01,2024,Winter,Weekday,Residential & Inner-Suburban Feeder,25405,23743,-1662,28093
+2024-01-01,2024,Winter,Weekend,Commercial & Employment Core,28909,28958,49,25380
+2024-01-01,2024,Winter,Weekend,Commuter-Heavy Transit Hub,1226,1243,17,1439
+2024-01-01,2024,Winter,Weekend,Leisure & Waterfront,2153,2337,184,2731
+2024-01-01,2024,Winter,Weekend,Residential & Inner-Suburban Feeder,6151,5946,-205,7718
+2024-02-01,2024,Winter,Weekday,Commercial & Employment Core,142662,141767,-895,87379
+2024-02-01,2024,Winter,Weekday,Commuter-Heavy Transit Hub,13099,15678,2579,7256
+2024-02-01,2024,Winter,Weekday,Leisure & Waterfront,10021,10647,626,10840
+2024-02-01,2024,Winter,Weekday,Residential & Inner-Suburban Feeder,30446,28066,-2380,30117
+2024-02-01,2024,Winter,Weekend,Commercial & Employment Core,39592,39637,45,30297
+2024-02-01,2024,Winter,Weekend,Commuter-Heavy Transit Hub,1533,1587,54,1690
+2024-02-01,2024,Winter,Weekend,Leisure & Waterfront,4222,4474,252,4253
+2024-02-01,2024,Winter,Weekend,Residential & Inner-Suburban Feeder,8568,8292,-276,9810
+2024-03-01,2024,Spring,Weekday,Commercial & Employment Core,161600,159890,-1710,90980
+2024-03-01,2024,Spring,Weekday,Commuter-Heavy Transit Hub,15098,18227,3129,7573
+2024-03-01,2024,Spring,Weekday,Leisure & Waterfront,13943,14638,695,13074
+2024-03-01,2024,Spring,Weekday,Residential & Inner-Suburban Feeder,35432,33233,-2199,32638
+2024-03-01,2024,Spring,Weekend,Commercial & Employment Core,52605,52905,300,39021
+2024-03-01,2024,Spring,Weekend,Commuter-Heavy Transit Hub,1997,2060,63,2274
+2024-03-01,2024,Spring,Weekend,Leisure & Waterfront,5944,6201,257,5770
+2024-03-01,2024,Spring,Weekend,Residential & Inner-Suburban Feeder,11733,11184,-549,12921
+2024-04-01,2024,Spring,Weekday,Commercial & Employment Core,199324,197782,-1542,101312
+2024-04-01,2024,Spring,Weekday,Commuter-Heavy Transit Hub,18244,20330,2086,8308
+2024-04-01,2024,Spring,Weekday,Leisure & Waterfront,20670,21699,1029,16611
+2024-04-01,2024,Spring,Weekday,Residential & Inner-Suburban Feeder,47532,45858,-1674,39532
+2024-04-01,2024,Spring,Weekend,Commercial & Employment Core,64381,64455,74,37654
+2024-04-01,2024,Spring,Weekend,Commuter-Heavy Transit Hub,2730,2562,-168,2347
+2024-04-01,2024,Spring,Weekend,Leisure & Waterfront,11138,11535,397,7441
+2024-04-01,2024,Spring,Weekend,Residential & Inner-Suburban Feeder,15943,15728,-215,14570
+2024-05-01,2024,Spring,Weekday,Commercial & Employment Core,321493,317224,-4269,121720
+2024-05-01,2024,Spring,Weekday,Commuter-Heavy Transit Hub,26526,30657,4131,9453
+2024-05-01,2024,Spring,Weekday,Leisure & Waterfront,48107,50068,1961,28227
+2024-05-01,2024,Spring,Weekday,Residential & Inner-Suburban Feeder,83404,81267,-2137,54358
+2024-05-01,2024,Spring,Weekend,Commercial & Employment Core,95163,95264,101,42066
+2024-05-01,2024,Spring,Weekend,Commuter-Heavy Transit Hub,3600,3520,-80,2681
+2024-05-01,2024,Spring,Weekend,Leisure & Waterfront,22923,23452,529,10481
+2024-05-01,2024,Spring,Weekend,Residential & Inner-Suburban Feeder,25481,25135,-346,18041
+2024-06-01,2024,Summer,Weekday,Commercial & Employment Core,337515,332965,-4550,112917
+2024-06-01,2024,Summer,Weekday,Commuter-Heavy Transit Hub,27564,31936,4372,9324
+2024-06-01,2024,Summer,Weekday,Leisure & Waterfront,48662,51775,3113,26171
+2024-06-01,2024,Summer,Weekday,Residential & Inner-Suburban Feeder,89306,85956,-3350,51912
+2024-06-01,2024,Summer,Weekend,Commercial & Employment Core,137022,137199,177,55499
+2024-06-01,2024,Summer,Weekend,Commuter-Heavy Transit Hub,4881,4564,-317,3594
+2024-06-01,2024,Summer,Weekend,Leisure & Waterfront,28007,29360,1353,13335
+2024-06-01,2024,Summer,Weekend,Residential & Inner-Suburban Feeder,36540,35785,-755,24265
+2024-07-01,2024,Summer,Weekday,Commercial & Employment Core,411849,405973,-5876,134767
+2024-07-01,2024,Summer,Weekday,Commuter-Heavy Transit Hub,31823,36915,5092,10640
+2024-07-01,2024,Summer,Weekday,Leisure & Waterfront,64520,69783,5263,32013
+2024-07-01,2024,Summer,Weekday,Residential & Inner-Suburban Feeder,107468,102599,-4869,61566
+2024-07-01,2024,Summer,Weekend,Commercial & Employment Core,138724,138803,79,48999
+2024-07-01,2024,Summer,Weekend,Commuter-Heavy Transit Hub,4810,4348,-462,3230
+2024-07-01,2024,Summer,Weekend,Leisure & Waterfront,35882,37575,1693,12942
+2024-07-01,2024,Summer,Weekend,Residential & Inner-Suburban Feeder,38634,37691,-943,22524
+2024-08-01,2024,Summer,Weekday,Commercial & Employment Core,414445,409183,-5262,132480
+2024-08-01,2024,Summer,Weekday,Commuter-Heavy Transit Hub,32918,36892,3974,10517
+2024-08-01,2024,Summer,Weekday,Leisure & Waterfront,64256,70442,6186,31340
+2024-08-01,2024,Summer,Weekday,Residential & Inner-Suburban Feeder,106887,101785,-5102,60101
+2024-08-01,2024,Summer,Weekend,Commercial & Employment Core,145386,145595,209,54226
+2024-08-01,2024,Summer,Weekend,Commuter-Heavy Transit Hub,5266,4784,-482,3638
+2024-08-01,2024,Summer,Weekend,Leisure & Waterfront,35051,36569,1518,13651
+2024-08-01,2024,Summer,Weekend,Residential & Inner-Suburban Feeder,38716,37645,-1071,23966
+2024-09-01,2024,Fall,Weekday,Commercial & Employment Core,426074,420532,-5542,123694
+2024-09-01,2024,Fall,Weekday,Commuter-Heavy Transit Hub,37733,42997,5264,9832
+2024-09-01,2024,Fall,Weekday,Leisure & Waterfront,52251,56165,3914,28328
+2024-09-01,2024,Fall,Weekday,Residential & Inner-Suburban Feeder,103252,99199,-4053,56481
+2024-09-01,2024,Fall,Weekend,Commercial & Employment Core,154427,154575,148,54192
+2024-09-01,2024,Fall,Weekend,Commuter-Heavy Transit Hub,6177,5751,-426,3753
+2024-09-01,2024,Fall,Weekend,Leisure & Waterfront,30276,31814,1538,13511
+2024-09-01,2024,Fall,Weekend,Residential & Inner-Suburban Feeder,38869,38117,-752,23781
+2024-10-01,2024,Fall,Weekday,Commercial & Employment Core,406293,401261,-5032,131224
+2024-10-01,2024,Fall,Weekday,Commuter-Heavy Transit Hub,38834,45667,6833,10760
+2024-10-01,2024,Fall,Weekday,Leisure & Waterfront,38746,42048,3302,26456
+2024-10-01,2024,Fall,Weekday,Residential & Inner-Suburban Feeder,97547,92100,-5447,58297
+2024-10-01,2024,Fall,Weekend,Commercial & Employment Core,122811,122949,138,46503
+2024-10-01,2024,Fall,Weekend,Commuter-Heavy Transit Hub,5166,5300,134,3220
+2024-10-01,2024,Fall,Weekend,Leisure & Waterfront,20341,21173,832,10303
+2024-10-01,2024,Fall,Weekend,Residential & Inner-Suburban Feeder,29513,28714,-799,19567
+2024-11-01,2024,Fall,Weekday,Commercial & Employment Core,290724,287794,-2930,113700
+2024-11-01,2024,Fall,Weekday,Commuter-Heavy Transit Hub,28436,35270,6834,9624
+2024-11-01,2024,Fall,Weekday,Leisure & Waterfront,20891,22917,2026,18157
+2024-11-01,2024,Fall,Weekday,Residential & Inner-Suburban Feeder,68737,62646,-6091,47788
+2024-11-01,2024,Fall,Weekend,Commercial & Employment Core,95770,96034,264,47753
+2024-11-01,2024,Fall,Weekend,Commuter-Heavy Transit Hub,4147,4373,226,3344
+2024-11-01,2024,Fall,Weekend,Leisure & Waterfront,9649,10352,703,8051
+2024-11-01,2024,Fall,Weekend,Residential & Inner-Suburban Feeder,22447,21485,-962,18856
+2024-12-01,2024,Winter,Weekday,Commercial & Employment Core,139020,136802,-2218,87444
+2024-12-01,2024,Winter,Weekday,Commuter-Heavy Transit Hub,12861,16390,3529,7353
+2024-12-01,2024,Winter,Weekday,Leisure & Waterfront,8365,9042,677,9643
+2024-12-01,2024,Winter,Weekday,Residential & Inner-Suburban Feeder,29518,27482,-2036,28835
+2024-12-01,2024,Winter,Weekend,Commercial & Employment Core,42411,42290,-121,33429
+2024-12-01,2024,Winter,Weekend,Commuter-Heavy Transit Hub,1879,2000,121,2074
+2024-12-01,2024,Winter,Weekend,Leisure & Waterfront,3154,3460,306,3733
+2024-12-01,2024,Winter,Weekend,Residential & Inner-Suburban Feeder,8888,8631,-257,10341
+2025-01-01,2025,Winter,Weekday,Commercial & Employment Core,117134,114911,-2223,86424
+2025-01-01,2025,Winter,Weekday,Commuter-Heavy Transit Hub,13018,15539,2521,7935
+2025-01-01,2025,Winter,Weekday,Leisure & Waterfront,6663,7390,727,8282
+2025-01-01,2025,Winter,Weekday,Residential & Inner-Suburban Feeder,23473,22447,-1026,26418
+2025-01-01,2025,Winter,Weekend,Commercial & Employment Core,29463,29645,182,27099
+2025-01-01,2025,Winter,Weekend,Commuter-Heavy Transit Hub,1240,1262,22,1577
+2025-01-01,2025,Winter,Weekend,Leisure & Waterfront,1966,2212,246,2662
+2025-01-01,2025,Winter,Weekend,Residential & Inner-Suburban Feeder,6191,5761,-430,7885
+2025-02-01,2025,Winter,Weekday,Commercial & Employment Core,72933,71929,-1004,59651
+2025-02-01,2025,Winter,Weekday,Commuter-Heavy Transit Hub,8489,9716,1227,5799
+2025-02-01,2025,Winter,Weekday,Leisure & Waterfront,4044,4467,423,5081
+2025-02-01,2025,Winter,Weekday,Residential & Inner-Suburban Feeder,13950,13262,-688,16651
+2025-02-01,2025,Winter,Weekend,Commercial & Employment Core,17631,17673,42,18229
+2025-02-01,2025,Winter,Weekend,Commuter-Heavy Transit Hub,764,897,133,1092
+2025-02-01,2025,Winter,Weekend,Leisure & Waterfront,1229,1336,107,1671
+2025-02-01,2025,Winter,Weekend,Residential & Inner-Suburban Feeder,3332,3082,-250,4528
+2025-03-01,2025,Spring,Weekday,Commercial & Employment Core,167305,165046,-2259,94510
+2025-03-01,2025,Spring,Weekday,Commuter-Heavy Transit Hub,18631,21390,2759,8461
+2025-03-01,2025,Spring,Weekday,Leisure & Waterfront,14085,15015,930,13343
+2025-03-01,2025,Spring,Weekday,Residential & Inner-Suburban Feeder,37367,35833,-1534,34000
+2025-03-01,2025,Spring,Weekend,Commercial & Employment Core,48110,48312,202,38543
+2025-03-01,2025,Spring,Weekend,Commuter-Heavy Transit Hub,2217,2240,23,2483
+2025-03-01,2025,Spring,Weekend,Leisure & Waterfront,5019,5278,259,5178
+2025-03-01,2025,Spring,Weekend,Residential & Inner-Suburban Feeder,10603,10225,-378,12193
+2025-04-01,2025,Spring,Weekday,Commercial & Employment Core,231503,228943,-2560,110285
+2025-04-01,2025,Spring,Weekday,Commuter-Heavy Transit Hub,23479,27240,3761,9559
+2025-04-01,2025,Spring,Weekday,Leisure & Waterfront,25292,26816,1524,20079
+2025-04-01,2025,Spring,Weekday,Residential & Inner-Suburban Feeder,57945,55113,-2832,44839
+2025-04-01,2025,Spring,Weekend,Commercial & Employment Core,72866,73208,342,40170
+2025-04-01,2025,Spring,Weekend,Commuter-Heavy Transit Hub,3228,3292,64,2708
+2025-04-01,2025,Spring,Weekend,Leisure & Waterfront,14578,14806,228,8831
+2025-04-01,2025,Spring,Weekend,Residential & Inner-Suburban Feeder,18482,17941,-541,15822
+2025-05-01,2025,Spring,Weekday,Commercial & Employment Core,314145,310379,-3766,119721
+2025-05-01,2025,Spring,Weekday,Commuter-Heavy Transit Hub,28659,34013,5354,9784
+2025-05-01,2025,Spring,Weekday,Leisure & Waterfront,46813,49348,2535,27366
+2025-05-01,2025,Spring,Weekday,Residential & Inner-Suburban Feeder,85223,80774,-4449,53358
+2025-05-01,2025,Spring,Weekend,Commercial & Employment Core,113597,113984,387,50543
+2025-05-01,2025,Spring,Weekend,Commuter-Heavy Transit Hub,4620,4721,101,3419
+2025-05-01,2025,Spring,Weekend,Leisure & Waterfront,24679,25033,354,12630
+2025-05-01,2025,Spring,Weekend,Residential & Inner-Suburban Feeder,30098,29508,-590,21743
+2025-06-01,2025,Summer,Weekday,Commercial & Employment Core,406923,400757,-6166,126925
+2025-06-01,2025,Summer,Weekday,Commuter-Heavy Transit Hub,34905,41362,6457,9717
+2025-06-01,2025,Summer,Weekday,Leisure & Waterfront,69431,73569,4138,34734
+2025-06-01,2025,Summer,Weekday,Residential & Inner-Suburban Feeder,109803,104946,-4857,59454
+2025-06-01,2025,Summer,Weekend,Commercial & Employment Core,165995,166462,467,55679
+2025-06-01,2025,Summer,Weekend,Commuter-Heavy Transit Hub,6093,5673,-420,3638
+2025-06-01,2025,Summer,Weekend,Leisure & Waterfront,48664,50019,1355,17427
+2025-06-01,2025,Summer,Weekend,Residential & Inner-Suburban Feeder,46005,45027,-978,25876
+2025-07-01,2025,Summer,Weekday,Commercial & Employment Core,519933,512997,-6936,144942
+2025-07-01,2025,Summer,Weekday,Commuter-Heavy Transit Hub,44016,50563,6547,11293
+2025-07-01,2025,Summer,Weekday,Leisure & Waterfront,109999,115511,5512,45449
+2025-07-01,2025,Summer,Weekday,Residential & Inner-Suburban Feeder,137774,132262,-5512,69987
+2025-07-01,2025,Summer,Weekday,Unassigned,0,3,3,3
+2025-07-01,2025,Summer,Weekend,Commercial & Employment Core,159763,159801,38,51010
+2025-07-01,2025,Summer,Weekend,Commuter-Heavy Transit Hub,5926,5258,-668,3346
+2025-07-01,2025,Summer,Weekend,Leisure & Waterfront,53818,55432,1614,16671
+2025-07-01,2025,Summer,Weekend,Residential & Inner-Suburban Feeder,44051,43408,-643,24392
+2025-08-01,2025,Summer,Weekday,Commercial & Employment Core,463666,458953,-4713,131741
+2025-08-01,2025,Summer,Weekday,Commuter-Heavy Transit Hub,39690,45601,5911,10657
+2025-08-01,2025,Summer,Weekday,Leisure & Waterfront,89623,94795,5172,39929
+2025-08-01,2025,Summer,Weekday,Residential & Inner-Suburban Feeder,121458,114660,-6798,62277
+2025-08-01,2025,Summer,Weekend,Commercial & Employment Core,205756,206206,450,63981
+2025-08-01,2025,Summer,Weekend,Commuter-Heavy Transit Hub,7599,7105,-494,4439
+2025-08-01,2025,Summer,Weekend,Leisure & Waterfront,67564,69800,2236,21193
+2025-08-01,2025,Summer,Weekend,Residential & Inner-Suburban Feeder,56030,54212,-1818,29904
+2025-09-01,2025,Fall,Weekday,Commercial & Employment Core,494569,487935,-6634,134844
+2025-09-01,2025,Fall,Weekday,Commuter-Heavy Transit Hub,46916,54707,7791,11098
+2025-09-01,2025,Fall,Weekday,Leisure & Waterfront,73402,76921,3519,38831
+2025-09-01,2025,Fall,Weekday,Residential & Inner-Suburban Feeder,121486,116459,-5027,62744
+2025-09-01,2025,Fall,Weekday,Unassigned,0,1,1,1
+2025-09-01,2025,Fall,Weekend,Commercial & Employment Core,162217,163123,906,51076
+2025-09-01,2025,Fall,Weekend,Commuter-Heavy Transit Hub,6786,6578,-208,3721
+2025-09-01,2025,Fall,Weekend,Leisure & Waterfront,38429,39727,1298,15794
+2025-09-01,2025,Fall,Weekend,Residential & Inner-Suburban Feeder,41702,40203,-1499,23339
+2025-10-01,2025,Fall,Weekday,Commercial & Employment Core,426634,420620,-6014,136074
+2025-10-01,2025,Fall,Weekday,Commuter-Heavy Transit Hub,43001,51978,8977,11672
+2025-10-01,2025,Fall,Weekday,Leisure & Waterfront,43825,46418,2593,30340
+2025-10-01,2025,Fall,Weekday,Residential & Inner-Suburban Feeder,102726,96465,-6261,59544
+2025-10-01,2025,Fall,Weekend,Commercial & Employment Core,141799,142642,843,49109
+2025-10-01,2025,Fall,Weekend,Commuter-Heavy Transit Hub,6359,6763,404,3636
+2025-10-01,2025,Fall,Weekend,Leisure & Waterfront,26485,27140,655,12534
+2025-10-01,2025,Fall,Weekend,Residential & Inner-Suburban Feeder,34733,33225,-1508,21140
+2025-11-01,2025,Fall,Weekday,Commercial & Employment Core,256455,253434,-3021,106999
+2025-11-01,2025,Fall,Weekday,Commuter-Heavy Transit Hub,28496,34366,5870,9850
+2025-11-01,2025,Fall,Weekday,Leisure & Waterfront,17019,17891,872,16871
+2025-11-01,2025,Fall,Weekday,Residential & Inner-Suburban Feeder,58503,54568,-3935,43607
+2025-11-01,2025,Fall,Weekend,Commercial & Employment Core,100824,101186,362,51496
+2025-11-01,2025,Fall,Weekend,Commuter-Heavy Transit Hub,4699,5025,326,3749
+2025-11-01,2025,Fall,Weekend,Leisure & Waterfront,9462,10103,641,8568
+2025-11-01,2025,Fall,Weekend,Residential & Inner-Suburban Feeder,23284,22537,-747,19720
+2025-12-01,2025,Winter,Weekday,Commercial & Employment Core,122448,120853,-1595,85875
+2025-12-01,2025,Winter,Weekday,Commuter-Heavy Transit Hub,13070,15377,2307,7943
+2025-12-01,2025,Winter,Weekday,Leisure & Waterfront,6916,7387,471,8689
+2025-12-01,2025,Winter,Weekday,Residential & Inner-Suburban Feeder,26710,25480,-1230,28316
+2025-12-01,2025,Winter,Weekend,Commercial & Employment Core,32009,32170,161,26908
+2025-12-01,2025,Winter,Weekend,Commuter-Heavy Transit Hub,1519,1578,59,1735
+2025-12-01,2025,Winter,Weekend,Leisure & Waterfront,2136,2372,236,2797
+2025-12-01,2025,Winter,Weekend,Residential & Inner-Suburban Feeder,6804,6400,-404,8335

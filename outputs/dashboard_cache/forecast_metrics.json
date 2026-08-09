@@ -1,0 +1,18 @@
+{
+  "sample_rows": 150000,
+  "mae": 1.7264010720648884,
+  "rmse": 2.707746628429426,
+  "r2": 0.33756695046531215,
+  "median_absolute_error": 1.0881288165073242,
+  "within_2_bikes": 0.7296133333333333,
+  "within_3_bikes": 0.8545933333333333,
+  "prediction_bias": 0.00550210782206197,
+  "zero_baseline_mae": 1.78346,
+  "lag_baseline_mae": 2.0736566666666665,
+  "elevated_pressure_rate": 0.01156,
+  "high_critical_pressure_rate": 0.0012533333333333333,
+  "prediction_start": "2025-03-14 21:00:00",
+  "prediction_end": "2025-12-31 23:00:00",
+  "improvement_vs_zero": 0.03199338809679597,
+  "improvement_vs_lag": 0.16746050596696893
+}
