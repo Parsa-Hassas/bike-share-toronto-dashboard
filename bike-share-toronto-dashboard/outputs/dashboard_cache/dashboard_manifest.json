@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-08-05T19:37:41.001784+00:00",
+  "project_dir": ".",
+  "source_hourly_panel": "outputs/full/hourly_panel.csv",
+  "historical_rows_read": 11272342,
+  "allowed_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "forecast_sample_rows": 150000,
+  "cache_files": [
+    "forecast_metrics.json",
+    "forecast_sample_enriched.csv",
+    "historical_daily.csv",
+    "historical_hourly_profile.csv",
+    "historical_monthly.csv",
+    "historical_seasonal.csv",
+    "historical_station_year_daytype.csv",
+    "run_summary.json",
+    "station_clusters.csv"
+  ]
+}

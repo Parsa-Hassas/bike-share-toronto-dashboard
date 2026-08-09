@@ -1,0 +1,588 @@
+/* ==========================================================================
+   Bike Share Toronto — Management Dashboard
+   Stylesheet for app.py
+
+   Dash automatically serves any .css file placed in an `assets/` folder
+   sitting next to app.py. Directory layout:
+
+       your_project/
+         app.py
+         prepare_dashboard_data.py
+         assets/
+           dashboard.css     <-- this file
+         outputs/
+
+   No import statement is needed; Dash finds it on startup.
+   ========================================================================== */
+
+:root {
+  --navy: #17365d;
+  --blue: #2f75b5;
+  --teal: #1f7a8c;
+  --green: #548235;
+  --gold: #c89b3c;
+  --orange: #d97a2b;
+  --red: #c00000;
+  --light-blue: #d9eaf7;
+  --light-green: #e2f0d9;
+  --light-gold: #fff2cc;
+  --light-red: #fce4d6;
+  --grey: #667085;
+  --light-grey: #f4f6f8;
+  --white: #ffffff;
+
+  --ink: #1d2939;
+  --ink-soft: #344054;
+  --border: #e4e7ec;
+  --border-strong: #d0d5dd;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04),
+            0 4px 12px rgba(16, 24, 40, 0.06);
+
+  /* One place to retune global rhythm. */
+  --gap: 20px;
+  --gap-lg: 28px;
+  --pad-card: 20px;
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--light-grey);
+  color: var(--ink-soft);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--navy);
+  margin: 0;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Shell
+   -------------------------------------------------------------------------- */
+
+.app-shell {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 28px 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+/* --------------------------------------------------------------------------
+   Top banner
+   -------------------------------------------------------------------------- */
+
+.top-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  background: linear-gradient(135deg, var(--navy) 0%, #24507f 100%);
+  color: var(--white);
+  padding: 26px 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.top-banner h1 {
+  color: var(--white);
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  margin-bottom: 6px;
+}
+
+.top-banner p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+}
+
+.scope-badge {
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   Interpretation note
+   -------------------------------------------------------------------------- */
+
+.scope-note {
+  background: var(--light-gold);
+  border: 1px solid #ecd9a0;
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #5c4813;
+}
+
+.scope-note strong {
+  color: #3f3108;
+}
+
+/* --------------------------------------------------------------------------
+   Tabs
+   -------------------------------------------------------------------------- */
+
+.main-tabs {
+  border-bottom: 1px solid var(--border) !important;
+}
+
+/* Dash injects its own .tab classes; these override the cramped defaults. */
+.main-tabs .tab {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  color: var(--grey) !important;
+  font-size: 14.5px !important;
+  font-weight: bold !important;
+  padding: 14px 22px !important;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.main-tabs .tab:hover {
+  color: var(--navy) !important;
+  background: rgba(47, 117, 181, 0.05) !important;
+}
+
+.main-tabs .tab--selected {
+  color: var(--navy) !important;
+  border-bottom: 3px solid var(--blue) !important;
+  background: transparent !important;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  padding: 26px 0 8px;
+}
+
+/* --------------------------------------------------------------------------
+   KPI cards
+   -------------------------------------------------------------------------- */
+
+.kpi-grid {
+  display: grid;
+  gap: var(--gap);
+}
+
+/* Named modifiers used in app.py: .six / .five / .four
+   auto-fit keeps them from crushing on narrow screens. */
+.kpi-grid.six {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.kpi-grid.five {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.kpi-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.kpi-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 18px 18px 16px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.kpi-title {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.kpi-value {
+  font-size: 27px;
+  font-weight: bold;
+  color: var(--navy);
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  overflow-wrap: break-word;
+}
+
+.kpi-subtitle {
+  font-size: 12.5px;
+  color: var(--grey);
+  line-height: 1.45;
+}
+
+/* Empty subtitles shouldn't leave a phantom gap. */
+.kpi-subtitle:empty {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Filter panel
+   -------------------------------------------------------------------------- */
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--gap);
+  align-items: end;
+
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+}
+
+/* Multi-selects hold many chips — give them double width. */
+.filter-wide {
+  grid-column: span 2;
+}
+
+.filter-item label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+/* Dropdown internals (react-select) */
+.filter-item .Select-control,
+.filter-item .Select--multi .Select-control {
+  border: 1px solid var(--border-strong) !important;
+  border-radius: var(--radius-sm) !important;
+  min-height: 40px !important;
+}
+
+.filter-item .Select-value {
+  background: var(--light-blue) !important;
+  border: 1px solid #b6d4ec !important;
+  color: var(--navy) !important;
+  border-radius: 4px !important;
+  margin: 3px 4px 3px 0 !important;
+  font-size: 12.5px !important;
+}
+
+.filter-item .Select-placeholder,
+.filter-item .Select--single > .Select-control .Select-value {
+  line-height: 38px !important;
+}
+
+/* Date picker sits ~4px higher than the dropdowns by default. */
+.filter-item .DateRangePickerInput {
+  border: 1px solid var(--border-strong) !important;
+  border-radius: var(--radius-sm) !important;
+  overflow: hidden;
+}
+
+.filter-item .DateInput_input {
+  font-size: 13.5px !important;
+  padding: 8px 10px !important;
+  font-family: inherit !important;
+}
+
+/* --------------------------------------------------------------------------
+   Chart cards
+   -------------------------------------------------------------------------- */
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap);
+}
+
+.chart-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--pad-card);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0; /* lets Plotly shrink inside grid tracks instead of overflowing */
+}
+
+.chart-title {
+  font-size: 15.5px;
+  font-weight: bold;
+  color: var(--navy);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.chart-note {
+  font-size: 12px;
+  color: var(--grey);
+  font-style: italic;
+  line-height: 1.5;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  margin-top: auto; /* pins notes to the card bottom so paired cards align */
+}
+
+.dashboard-graph {
+  width: 100%;
+  min-height: 340px;
+  flex: 0 0 auto; /* don't stretch to fill — keeps side-by-side charts equal */
+}
+
+.dashboard-graph .js-plotly-plot,
+.dashboard-graph .plot-container {
+  width: 100% !important;
+}
+
+/* --------------------------------------------------------------------------
+   Insight panel
+   -------------------------------------------------------------------------- */
+
+.insight-panel {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--teal);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  box-shadow: var(--shadow);
+}
+
+.insight-panel h3 {
+  font-size: 17px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.insight-panel ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* the main fix — default <li> spacing runs the bullets together */
+}
+
+.insight-panel li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  padding-left: 4px;
+}
+
+.insight-panel li::marker {
+  color: var(--teal);
+}
+
+/* --------------------------------------------------------------------------
+   Table card
+   -------------------------------------------------------------------------- */
+
+.table-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--pad-card);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Breathing room around the DataTable (inline styles handle cell internals). */
+.table-card .dash-table-container {
+  margin-top: 2px;
+}
+
+.table-card .dash-spreadsheet-container .dash-spreadsheet-inner td,
+.table-card .dash-spreadsheet-container .dash-spreadsheet-inner th {
+  padding: 10px 12px !important;
+}
+
+/* --------------------------------------------------------------------------
+   Method & Limitations
+   -------------------------------------------------------------------------- */
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--gap);
+  align-items: stretch;
+}
+
+.method-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.method-card h3 {
+  font-size: 15.5px;
+  color: var(--navy);
+}
+
+.method-card p {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+/* Caveat cards read as advisories, not findings. */
+.method-card.warning {
+  border-top-color: var(--orange);
+  background: #fffaf5;
+}
+
+.method-card.warning h3 {
+  color: #9a4f10;
+}
+
+.method-card.warning h3::before {
+  content: "⚠ ";
+  font-size: 14px;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.footer {
+  margin-top: 12px;
+  padding: 20px 4px 0;
+  border-top: 1px solid var(--border-strong);
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--grey);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 1400px) {
+  .kpi-grid.six {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .kpi-grid.five {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1100px) {
+  .app-shell {
+    padding: 22px 20px 40px;
+  }
+  .two-column-grid {
+    grid-template-columns: 1fr;
+  }
+  .filter-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .kpi-grid.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dashboard-graph {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 720px) {
+  .app-shell {
+    padding: 16px 14px 32px;
+  }
+  .top-banner {
+    padding: 20px;
+  }
+  .top-banner h1 {
+    font-size: 21px;
+  }
+  .kpi-grid.six,
+  .kpi-grid.five,
+  .kpi-grid.four {
+    grid-template-columns: 1fr;
+  }
+  .filter-panel {
+    grid-template-columns: 1fr;
+  }
+  .filter-wide {
+    grid-column: span 1;
+  }
+  .kpi-value {
+    font-size: 24px;
+  }
+  .main-tabs .tab {
+    padding: 12px 14px !important;
+    font-size: 13px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print (for exporting dashboard pages into the report)
+   -------------------------------------------------------------------------- */
+
+@media print {
+  body {
+    background: var(--white);
+  }
+  .kpi-card,
+  .chart-card,
+  .method-card,
+  .table-card,
+  .insight-panel {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+}
